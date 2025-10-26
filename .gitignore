@@ -66,11 +66,11 @@ coverage.xml
 local_settings.py
 
 # Ignore CSV/Excel outputs or data dumps
-*.csv
-*.xlsx
 
 # Ignore compiled notebook outputs
 *.nbconvert.ipynb
 
 models/data.csv
 models/.*
+
+**/.~lock.*
